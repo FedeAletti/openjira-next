@@ -7,7 +7,7 @@ import { UiContext, UiProvider } from "../context/ui"
 export default function App({ Component, pageProps }: AppProps) {
 	return (
 		<UiProvider>
-			<ThemeProvider theme={lightTheme}>
+			<ThemeProvider theme={darkTheme}>
 				<CssBaseline />
 				<Component {...pageProps} />
 			</ThemeProvider>
