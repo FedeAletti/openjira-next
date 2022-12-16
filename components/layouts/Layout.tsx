@@ -19,7 +19,9 @@ export const Layout: FC<Props> = ({ title = "TaskFlow", children }) => {
 
 			<SideBar />
 
-			<Box sx={{ padding: "10px 20px" }}>{children}</Box>
+			<Box sx={{ padding: "10px 20px", height: "calc(100vh - 250px" }}>
+				{children}
+			</Box>
 		</Box>
 	)
 }

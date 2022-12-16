@@ -23,11 +23,7 @@ export const lightTheme = createTheme({
 			defaultProps: {
 				elevation: 0,
 			},
-			styleOverrides: {
-				root: {
-					backgroundColor: "#4a148c",
-				},
-			},
+			styleOverrides: {},
 		},
 	},
 })
